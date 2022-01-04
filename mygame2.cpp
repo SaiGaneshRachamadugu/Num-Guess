@@ -34,6 +34,14 @@ int main()
 	int Null=0;
 	int prevNum = 5, nextNum;
 	char choice;
+
+	/// <summary>
+	/// Sai Ganeshr "Basic Number Guessing Game"
+	/// this line states that if you want to choose the next number to be higher than the currently displayed number then Press 'H'
+	/// If you guess the next number as the Lower than currently displayed number then press 'L'
+	/// </summary>
+	/// <returns></returns>
+
 	do
 	{
 			do
@@ -81,6 +89,12 @@ int main()
 			}
         }
 	} 
+
+	/// <summary>
+	/// SaiGaneshr "Basic Number guessing Game"
+	/// This Line States if you have guessed the number wrong for 3 times, if yes then you have to restart the game again.
+	/// </summary>
+	/// <returns></returns>
 	while (mistakes < 3);
 	system("cls");
 	cout << "you've made 3 mistakes !Game is now over ! " << endl;
